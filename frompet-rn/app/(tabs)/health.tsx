@@ -1,9 +1,11 @@
+import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 
-export default function AboutScreen() {
+export default function HealthScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>About app</Text>
+      <StatusBar style="light" />
+      <Text style={styles.text}>건강관리</Text>
     </View>
   );
 }

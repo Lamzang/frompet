@@ -1,9 +1,9 @@
 import { StyleSheet, Text, View } from "react-native";
 
-export default function AboutScreen() {
+export default function ContentsScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>About app</Text>
+      <Text style={styles.text}>게시물들</Text>
     </View>
   );
 }
